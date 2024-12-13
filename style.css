@@ -1,0 +1,182 @@
+/* Style for the body element */
+body {
+    background-color: #F4F6F8;
+    color: #333333;
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for heading elements (h1, h2, h3, h4, h5, h6) */
+h1, h2, h3, h4, h5, h6 {
+    color: #2D3748;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Specific style for h1 */
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center; /* Centering the profile name */
+}
+
+/* Specific style for h2 */
+h2 {
+    font-size: 2rem;
+}
+
+/* Specific style for h3 */
+h3 {
+    font-size: 1.75rem;
+}
+
+/* Specific style for h4 */
+h4 {
+    font-size: 1.5rem;
+}
+
+/* Style for paragraph elements */
+p {
+    font-size: 1rem;
+    color: #4A5568;
+    margin-bottom: 1rem;
+}
+
+/* Style for links */
+a {
+    color: #3182CE;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #2B6CB0;
+    text-decoration: underline;
+}
+
+/* Style for buttons and elements with class .btn */
+button, .btn {
+    background-color: #2B6CB0;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect for buttons and .btn class */
+button:hover, .btn:hover {
+    background-color: #2C5282;
+}
+
+/* Center text alignment for elements with class .text-center */
+.text-center {
+    text-align: center;
+}
+
+/* Uppercase text for elements with class .text-uppercase */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Muted text color for elements with class .text-muted */
+.text-muted {
+    color: #A0AEC0;
+}
+
+/* Style for container div with class .container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Profile header styling */
+#profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Profile image styling */
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #2B6CB0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for all section blocks */
+.section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Links in the introduction section */
+#introduction .linkedin-link {
+    font-weight: 600;
+}
+
+/* Social media links styling */
+#social-media .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#social-media .social-icon {
+    font-size: 2rem;
+    color: #333333;
+    transition: color 0.2s ease-in-out;
+}
+
+#social-media .social-icon:hover {
+    color: #3182CE;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjust padding for .container on small screens */
+    .container {
+        padding: 1rem;
+    }
+
+    /* Profile image adjustments for small screens */
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+} 
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}
